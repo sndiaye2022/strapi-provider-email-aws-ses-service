@@ -1,0 +1,29 @@
+{
+  "name": "strapi-provider-email-aws-ses-service",
+  "version": "1.0.0",
+  "main": "./lib",
+  "author": {
+    "name": "Souleymane Ndiaye",
+    "email": "souleymane.ndiaye@taalal.com",
+    "url": "https://github.com/sndiaye2022"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sndiaye2022/strapi-provider-email-aws-ses-service.git"
+  },
+  "scripts": {
+    "test": "echo no test specified"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.4.2",
+    "strapi-utils": "^3.0.5"
+  }
+}
